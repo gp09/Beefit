@@ -1,0 +1,6 @@
+framework module Pods_BeefitMsc {
+  umbrella header "Pods-BeefitMsc-umbrella.h"
+
+  export *
+  module * { export * }
+}

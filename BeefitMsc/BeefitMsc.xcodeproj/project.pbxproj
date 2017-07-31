@@ -10,6 +10,7 @@
 		702275B58B8A0768CEB32715 /* Pods_BeefitMscTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2613CFEBD5F6927359E5C22B /* Pods_BeefitMscTests.framework */; };
 		99A7C7801F2F0EDC009251C2 /* BeeLoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99A7C77F1F2F0EDC009251C2 /* BeeLoginViewController.swift */; };
 		99A7C7821F2F0F1C009251C2 /* BeeSignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99A7C7811F2F0F1C009251C2 /* BeeSignUpViewController.swift */; };
+		99A7C7861F2F95B9009251C2 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99A7C7851F2F95B9009251C2 /* Constants.swift */; };
 		99CD22FA1F2E579B00352E73 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99CD22F91F2E579B00352E73 /* AppDelegate.swift */; };
 		99CD22FC1F2E579B00352E73 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99CD22FB1F2E579B00352E73 /* ViewController.swift */; };
 		99CD22FF1F2E579B00352E73 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 99CD22FD1F2E579B00352E73 /* Main.storyboard */; };
@@ -40,6 +41,7 @@
 		929A672BE5A87D7D0A8B464E /* Pods-BeefitMscTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BeefitMscTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BeefitMscTests/Pods-BeefitMscTests.debug.xcconfig"; sourceTree = "<group>"; };
 		99A7C77F1F2F0EDC009251C2 /* BeeLoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BeeLoginViewController.swift; sourceTree = "<group>"; };
 		99A7C7811F2F0F1C009251C2 /* BeeSignUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BeeSignUpViewController.swift; sourceTree = "<group>"; };
+		99A7C7851F2F95B9009251C2 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		99CD22F61F2E579B00352E73 /* BeefitMsc.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BeefitMsc.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		99CD22F91F2E579B00352E73 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		99CD22FB1F2E579B00352E73 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -94,6 +96,14 @@
 			name = "Login Screens";
 			sourceTree = "<group>";
 		};
+		99A7C7871F2F95EB009251C2 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				99A7C7851F2F95B9009251C2 /* Constants.swift */,
+			);
+			name = Constants;
+			sourceTree = "<group>";
+		};
 		99CD22ED1F2E579B00352E73 = {
 			isa = PBXGroup;
 			children = (
@@ -117,6 +127,7 @@
 		99CD22F81F2E579B00352E73 /* BeefitMsc */ = {
 			isa = PBXGroup;
 			children = (
+				99A7C7871F2F95EB009251C2 /* Constants */,
 				99A7C77E1F2F0EB9009251C2 /* Login Screens */,
 				99CD22F91F2E579B00352E73 /* AppDelegate.swift */,
 				99CD23191F2E5AF700352E73 /* BeeLaunchViewController.swift */,
@@ -354,6 +365,7 @@
 				99CD22FC1F2E579B00352E73 /* ViewController.swift in Sources */,
 				99CD231A1F2E5AF700352E73 /* BeeLaunchViewController.swift in Sources */,
 				99A7C7801F2F0EDC009251C2 /* BeeLoginViewController.swift in Sources */,
+				99A7C7861F2F95B9009251C2 /* Constants.swift in Sources */,
 				99CD22FA1F2E579B00352E73 /* AppDelegate.swift in Sources */,
 				99A7C7821F2F0F1C009251C2 /* BeeSignUpViewController.swift in Sources */,
 			);

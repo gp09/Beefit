@@ -8,7 +8,7 @@
 
 import UIKit
 
-class BeeMapVIewController: UIViewController {
+class BeeMapVIewController: UIViewController, CLLocationManagerDelegate {
 
     override func viewDidLoad() {
         super.viewDidLoad()

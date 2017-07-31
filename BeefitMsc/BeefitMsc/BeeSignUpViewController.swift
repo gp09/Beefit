@@ -37,7 +37,7 @@ class BeeSignUpViewController: UIViewController {
             print("Login Successful")
             user?.getIDToken(completion: { (token, error) in
                 print("\(String(describing: token))")
-                KeychainService.saveToken(token: token! as NSString)
+                BeeKeychainService.saveToken(token: token! as NSString)
                 
             })
             let user = Auth.auth().currentUser

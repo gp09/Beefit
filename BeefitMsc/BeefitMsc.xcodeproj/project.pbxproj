@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		702275B58B8A0768CEB32715 /* Pods_BeefitMscTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2613CFEBD5F6927359E5C22B /* Pods_BeefitMscTests.framework */; };
+		99A7C7801F2F0EDC009251C2 /* BeeLoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99A7C77F1F2F0EDC009251C2 /* BeeLoginViewController.swift */; };
+		99A7C7821F2F0F1C009251C2 /* BeeSignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99A7C7811F2F0F1C009251C2 /* BeeSignUpViewController.swift */; };
 		99CD22FA1F2E579B00352E73 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99CD22F91F2E579B00352E73 /* AppDelegate.swift */; };
 		99CD22FC1F2E579B00352E73 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99CD22FB1F2E579B00352E73 /* ViewController.swift */; };
 		99CD22FF1F2E579B00352E73 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 99CD22FD1F2E579B00352E73 /* Main.storyboard */; };
@@ -15,6 +17,7 @@
 		99CD23041F2E579B00352E73 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 99CD23021F2E579B00352E73 /* LaunchScreen.storyboard */; };
 		99CD230F1F2E579B00352E73 /* BeefitMscTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99CD230E1F2E579B00352E73 /* BeefitMscTests.swift */; };
 		99CD231A1F2E5AF700352E73 /* BeeLaunchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99CD23191F2E5AF700352E73 /* BeeLaunchViewController.swift */; };
+		99CD231C1F2E5FEC00352E73 /* BeeKeychainService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99CD231B1F2E5FEC00352E73 /* BeeKeychainService.swift */; };
 		D1923D14AD04A95060C5A3F6 /* Pods_BeefitMsc.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 36E8DA258B860079B59E62C0 /* Pods_BeefitMsc.framework */; };
 /* End PBXBuildFile section */
 
@@ -35,6 +38,8 @@
 		7771A7B2B40BCA99F225A43F /* Pods-BeefitMscTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BeefitMscTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-BeefitMscTests/Pods-BeefitMscTests.release.xcconfig"; sourceTree = "<group>"; };
 		851EC398E7B15A79CD36A07C /* Pods-BeefitMsc.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BeefitMsc.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BeefitMsc/Pods-BeefitMsc.debug.xcconfig"; sourceTree = "<group>"; };
 		929A672BE5A87D7D0A8B464E /* Pods-BeefitMscTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BeefitMscTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BeefitMscTests/Pods-BeefitMscTests.debug.xcconfig"; sourceTree = "<group>"; };
+		99A7C77F1F2F0EDC009251C2 /* BeeLoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BeeLoginViewController.swift; sourceTree = "<group>"; };
+		99A7C7811F2F0F1C009251C2 /* BeeSignUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BeeSignUpViewController.swift; sourceTree = "<group>"; };
 		99CD22F61F2E579B00352E73 /* BeefitMsc.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BeefitMsc.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		99CD22F91F2E579B00352E73 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		99CD22FB1F2E579B00352E73 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -46,6 +51,7 @@
 		99CD230E1F2E579B00352E73 /* BeefitMscTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeefitMscTests.swift; sourceTree = "<group>"; };
 		99CD23101F2E579B00352E73 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		99CD23191F2E5AF700352E73 /* BeeLaunchViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BeeLaunchViewController.swift; sourceTree = "<group>"; };
+		99CD231B1F2E5FEC00352E73 /* BeeKeychainService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BeeKeychainService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +85,15 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		99A7C77E1F2F0EB9009251C2 /* Login Screens */ = {
+			isa = PBXGroup;
+			children = (
+				99A7C77F1F2F0EDC009251C2 /* BeeLoginViewController.swift */,
+				99A7C7811F2F0F1C009251C2 /* BeeSignUpViewController.swift */,
+			);
+			name = "Login Screens";
+			sourceTree = "<group>";
+		};
 		99CD22ED1F2E579B00352E73 = {
 			isa = PBXGroup;
 			children = (
@@ -102,9 +117,11 @@
 		99CD22F81F2E579B00352E73 /* BeefitMsc */ = {
 			isa = PBXGroup;
 			children = (
+				99A7C77E1F2F0EB9009251C2 /* Login Screens */,
 				99CD22F91F2E579B00352E73 /* AppDelegate.swift */,
 				99CD23191F2E5AF700352E73 /* BeeLaunchViewController.swift */,
 				99CD22FB1F2E579B00352E73 /* ViewController.swift */,
+				99CD231B1F2E5FEC00352E73 /* BeeKeychainService.swift */,
 				99CD22FD1F2E579B00352E73 /* Main.storyboard */,
 				99CD23001F2E579B00352E73 /* Assets.xcassets */,
 				99CD23021F2E579B00352E73 /* LaunchScreen.storyboard */,
@@ -333,9 +350,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				99CD231C1F2E5FEC00352E73 /* BeeKeychainService.swift in Sources */,
 				99CD22FC1F2E579B00352E73 /* ViewController.swift in Sources */,
 				99CD231A1F2E5AF700352E73 /* BeeLaunchViewController.swift in Sources */,
+				99A7C7801F2F0EDC009251C2 /* BeeLoginViewController.swift in Sources */,
 				99CD22FA1F2E579B00352E73 /* AppDelegate.swift in Sources */,
+				99A7C7821F2F0F1C009251C2 /* BeeSignUpViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -547,6 +567,7 @@
 				99CD23151F2E579B00352E73 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		99CD23161F2E579B00352E73 /* Build configuration list for PBXNativeTarget "BeefitMscTests" */ = {
 			isa = XCConfigurationList;
@@ -555,6 +576,7 @@
 				99CD23181F2E579B00352E73 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

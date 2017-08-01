@@ -14,7 +14,7 @@ class BeeLearnToFitViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        gridCollectionView = UICollectionView.init(frame: CGRect.init(x: 0, y: 100, width: self.view.frame.size.width, height: self.view.frame.size.height), collectionViewLayout:nil)
+//        gridCollectionView = UICollectionView.init(frame: CGRect.init(x: 0, y: 100, width: self.view.frame.size.width, height: self.view.frame.size.height), collectionViewLayout:nil)
         gridCollectionView.backgroundColor =  nil
         gridCollectionView.showsVerticalScrollIndicator = false
         gridCollectionView.showsHorizontalScrollIndicator = false

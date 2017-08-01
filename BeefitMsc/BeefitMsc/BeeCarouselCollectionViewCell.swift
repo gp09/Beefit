@@ -10,4 +10,7 @@ import UIKit
 
 class BeeCarouselCollectionViewCell: UICollectionViewCell {
     
+    var textLbl:UILabel!
+    
+    
 }

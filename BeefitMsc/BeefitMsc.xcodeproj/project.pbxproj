@@ -15,6 +15,7 @@
 		99A7C78B1F2F96BA009251C2 /* BeeTabTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99A7C78A1F2F96BA009251C2 /* BeeTabTableViewController.swift */; };
 		99AC4D1F1F30690B001B4DB2 /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99AC4D1E1F30690B001B4DB2 /* SwiftyJSON.swift */; };
 		99AC4D211F30EAFF001B4DB2 /* BeeLearnToFitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99AC4D201F30EAFF001B4DB2 /* BeeLearnToFitViewController.swift */; };
+		99AC4D231F30EF96001B4DB2 /* BeeCarouselCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99AC4D221F30EF96001B4DB2 /* BeeCarouselCollectionViewCell.swift */; };
 		99CD22FA1F2E579B00352E73 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99CD22F91F2E579B00352E73 /* AppDelegate.swift */; };
 		99CD22FC1F2E579B00352E73 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99CD22FB1F2E579B00352E73 /* ViewController.swift */; };
 		99CD22FF1F2E579B00352E73 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 99CD22FD1F2E579B00352E73 /* Main.storyboard */; };
@@ -50,6 +51,7 @@
 		99A7C78A1F2F96BA009251C2 /* BeeTabTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BeeTabTableViewController.swift; sourceTree = "<group>"; };
 		99AC4D1E1F30690B001B4DB2 /* SwiftyJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftyJSON.swift; sourceTree = "<group>"; };
 		99AC4D201F30EAFF001B4DB2 /* BeeLearnToFitViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BeeLearnToFitViewController.swift; sourceTree = "<group>"; };
+		99AC4D221F30EF96001B4DB2 /* BeeCarouselCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BeeCarouselCollectionViewCell.swift; sourceTree = "<group>"; };
 		99CD22F61F2E579B00352E73 /* BeefitMsc.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BeefitMsc.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		99CD22F91F2E579B00352E73 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		99CD22FB1F2E579B00352E73 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -146,6 +148,7 @@
 				99AC4D1E1F30690B001B4DB2 /* SwiftyJSON.swift */,
 				99CD22FD1F2E579B00352E73 /* Main.storyboard */,
 				99AC4D201F30EAFF001B4DB2 /* BeeLearnToFitViewController.swift */,
+				99AC4D221F30EF96001B4DB2 /* BeeCarouselCollectionViewCell.swift */,
 				99CD23001F2E579B00352E73 /* Assets.xcassets */,
 				99CD23021F2E579B00352E73 /* LaunchScreen.storyboard */,
 				99CD23051F2E579B00352E73 /* Info.plist */,
@@ -384,6 +387,7 @@
 				99CD22FA1F2E579B00352E73 /* AppDelegate.swift in Sources */,
 				99A7C7891F2F965F009251C2 /* BeeMapVIewController.swift in Sources */,
 				99A7C7821F2F0F1C009251C2 /* BeeSignUpViewController.swift in Sources */,
+				99AC4D231F30EF96001B4DB2 /* BeeCarouselCollectionViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
